@@ -1,3 +1,6 @@
+# the purpose of this code is that creating statistics frames for seeking insights of okr.
+
+
 import pandas as pd
 import numpy as np
 import plotly.graph_objects as go
