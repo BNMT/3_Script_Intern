@@ -7,7 +7,7 @@ import numpy as np
 import re
 
 #df_bu_vn = pd.read_excel("C:/Users/VivoBook/Downloads/Classify BU and Translate Comments.xlsx", sheet_name = 'Vietnamese BU comments')
-df_bu_over_vn = pd.read_excel("C:/Users/VivoBook/Downloads/Classify BU and Translate Comments.xlsx", sheet_name = 'Foreign BU comments')
+df_bu_over_vn = pd.read_excel("/Classify BU and Translate Comments.xlsx", sheet_name = 'Foreign BU comments')
 
 #df_temp = df_bu_vn[['Quest', 'Translation']]
 df_temp = df_bu_over_vn[['Quest', 'Translation']]
