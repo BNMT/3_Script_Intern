@@ -3,7 +3,7 @@ import numpy as np
 
 
 # apply file
-df = pd.ExcelFile(r"C:/Users/VivoBook/Downloads/R01_Báo cáo danh mục nhân viên_Assignment Employee Report Full_V1.xls")
+df = pd.ExcelFile(r"/R01_Báo cáo danh mục nhân viên_Assignment Employee Report Full_V1.xls")
 # sheet 1
 df_goc = pd.read_excel(df, sheet_name='gốc', skiprows=15)
 
