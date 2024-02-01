@@ -1,4 +1,4 @@
-# the purpose of this code is that creating statistics frames for seeking insights of okr.
+# the purpose of this code is that creating statistics frames for seeking insights of OKR.
 
 
 import pandas as pd
@@ -10,7 +10,7 @@ import math
 
 
 # apply file
-df_0 = pd.read_excel("C:/Users/VivoBook/Downloads/OKR 22.1.xlsx", header = 6)
+df_0 = pd.read_excel("/OKR 22.1.xlsx", header = 6)
 # drop line 2nd in df
 df = df_0.drop(df_0.iloc[:1, :].index.tolist())
 # rename columns
