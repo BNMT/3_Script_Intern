@@ -11,7 +11,7 @@ from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
 
 # read df
-df_initial = pd.read_excel("C:/Users/VivoBook/Downloads/Greenfeed-voice-2023-final-09-01-2024.xlsx")
+df_initial = pd.read_excel("/Greenfeed-voice-2023-final-09-01-2024.xlsx")
 df = df_initial.drop(df_initial.iloc[:1, :].index.tolist())
 df.reset_index(inplace = True)
 df = df.drop('index', axis=1)
